@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+a:hover {
+  color: #D23333;
+  font-weight: 700;
+}
+
+.list-horizontal {
+  margin: 0;
+  padding: 0;
+}
+
+.list-horizontal li {
+  font-family: PT Sans Narrow;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  display: inline;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  font-family: Anton;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: PT Sans Narrow;
+  font-size: 25px;
+  font-weight: 700px;
+}
+
+h3 {
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+p {
+  font-family: PT Sans Narrow;
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 15px;
+}
+
+.btn-red {
+  background-color: #db7a7a;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  padding: 4px;
+  letter-spacing: 1px
+}
+
+.btn-red:hover {
+  background-color: #D23333;
+  color: white;
+  padding: 5px;
+}
+
+.film_photo {
+  height: 300px;
+  width: 450px;
+  filter: grayscale(100%);
+}
+
+.film_photo:hover {
+  filter: grayscale(0%);
+}
+
+.film-icon {
+  size: 50px;
+}
+
+#dp {
+  size: 50px;
+  border-radius: 365px;
+}
+
+#first-card h2 {
+  margin-bottom: 0;
+}
+
+#first-card p {
+  margin-top: 0;
+}
+
+#third-card h3 {
+  margin-top: 0;
+}
